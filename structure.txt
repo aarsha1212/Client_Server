@@ -1,0 +1,25 @@
+/project-root
+│
+├── /cmd
+│   └── /app (main application)
+│       └── main.go (entry point)
+│
+├── /internal
+│   ├── /auth (authentication logic)
+│   ├── /services (business logic for members)
+│   ├── /users (logic for users)
+│   └── /payments (payment gateway integration)
+│
+├── /pkg
+│   ├── /models (database models)
+│   ├── /middleware (auth, logging, etc.)
+│   └── /utils (utility functions)
+│
+├── /web
+│   ├── /templates (HTML templates)
+│   └── /static (CSS, JS, images)
+│
+└── /config
+|    └── config.go (configuration settings like DB connection)
+
+// C:\Program Files\MySQL\MySQL Server 8.0\bin>c
